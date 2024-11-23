@@ -1,0 +1,52 @@
+.container {
+    text-align: center;
+
+}
+
+.container img {
+    width: 300px; /* Set the width of the image */
+    height: 300px; /* Ensure the height matches the width for a square */
+    object-fit: cover; /* Ensures the image fits the square without distortion */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+    border: 2px solid #ccc; /* Optional: Adds a border for a defined look */
+    border-radius: 5px; /* Optional: Slight rounding of the edges */
+    margin-bottom: 1rem; /* Space below the image */
+}
+
+
+
+
+
+/* Navbar customizations */
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* About section styling */
+.container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Social Media Icon Styling */
+.fa-solid, .fa-brands {
+    transition: transform 0.3s ease-in-out;
+}
+
+.fa-solid:hover, .fa-brands:hover {
+    transform: scale(1.2);
+}
+
+
+

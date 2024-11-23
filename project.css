@@ -1,0 +1,85 @@
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+/* Header styling */
+header {
+    background-color: #343a40;
+    color: white;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#projects h2 {
+    font-size: 28px;
+    color: #343a40;
+}
+
+/* Card styling */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #555;
+}
+
+.card-img-top {
+    border-radius: 10px;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: white;
+    font-size: 16px;
+}
